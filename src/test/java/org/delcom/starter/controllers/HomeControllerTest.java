@@ -13,14 +13,14 @@ class HomeControllerUnitTest {
     @DisplayName("hello() mengembalikan pesan selamat datang")
     void hello_ShouldReturnWelcomeMessage() {
         String result = controller.hello();
-        assertEquals("Hay Abdullah, selamat datang di pengembangan aplikasi dengan Spring Boot!", result);
+        assertEquals("Eyoyoo Immanuel Lumbantobing, selamat datang di pengembangan aplikasi dengan Spring Boot!", result);
     }
 
     @Test
     @DisplayName("sayHello() mengembalikan pesan sapaan")
     void sayHello_ShouldReturnPersonalizedGreeting() {
-        String result = controller.sayHello("Abdullah");
-        assertEquals("Hello, Abdullah!", result);
+        String result = controller.sayHello("Immanuel Lumbantobing");
+        assertEquals("Hello, Immanuel Lumbantobing!", result);
     }
 
     // ===== TEST INFORMASI NIM =====

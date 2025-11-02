@@ -14,7 +14,7 @@ public class HomeController {
     @GetMapping("/hello")
     @ResponseBody
     public String hello() {
-        return "Hay Abdullah, selamat datang di pengembangan aplikasi dengan Spring Boot!";
+        return "Eyoyoo Immanuel Lumbantobing, selamat datang di pengembangan aplikasi dengan Spring Boot!";
     }
 
     @GetMapping("/sayHello")
