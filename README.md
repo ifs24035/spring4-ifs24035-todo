@@ -35,9 +35,9 @@ URL: http://localhost:8080
 
 ### Menjalankan Test Covertage
 
-command: `mvnw test jacoco:report`
+command: `./mvnw test jacoco:report`
 
-command-check: `mvnw clean test jacoco:check`
+command-check: `./mvnw clean test jacoco:check`
 
 
 
