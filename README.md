@@ -42,3 +42,4 @@ command-check: `./mvnw clean test jacoco:check`
 update berkala pada homecontroller dengan menambahkan 4 endpoint dari praktikum 1
 
 
+
