@@ -17,10 +17,6 @@ Aplikasi Spring Boot dengan 4 fitur utama:
 3. Perbedaan L dan Kebalikannya
 4. Paling Ter (Statistik Nilai)
 
-## Test Coverage
-- Instruction Coverage: 99%
-- Branch Coverage: 95%
-
 ## Syntax
 
 ### Melakukan Instal Ulang Kebutuhan Paket
@@ -38,5 +34,3 @@ URL: http://localhost:8080
 command: `./mvnw test jacoco:report`
 
 command-check: `./mvnw clean test jacoco:check`
-
-update berkala pada homecontroller dengan menambahkan 4 endpoint dari praktikum 1
